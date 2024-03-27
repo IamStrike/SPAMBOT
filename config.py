@@ -27,10 +27,10 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5518687442").split()))
-for x in OXYGEN:
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6626817043").split()))
+for x in 𝐒𝐓𝐑𝐈𝐊𝐄:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="5059737154"))
+OWNER_ID = int(getenv("OWNER_ID", default="6626817043"))
 SUDO_USERS.append(OWNER_ID)
 
 
