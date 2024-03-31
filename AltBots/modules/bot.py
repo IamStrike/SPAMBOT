@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`𝙎𝙏𝙍𝙄𝙆𝙀 𝙞𝙨 𝙍𝙚𝙖𝙙𝙮 𝙩𝙤 𝙁𝙪𝙘𝙠 𝙃𝙖𝙩𝙚𝙧𝙨😆😆...`")
+        await e.reply(f"`ᴀᴜʀ ᴛʜᴏᴅɪ ᴍᴀᴀ ᴄʜᴏᴅɴɪ ᴅᴇᴛᴀ ɪsᴋɪ ʀᴀɴᴅ ᴋ ᴘɪʟʟᴇ 🤧...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»𝐅ɪɴᴀʟ 〆 𝐒ᴛʀɪᴋᴇ⚡ 𝐍𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃𝐄𝐃__")
+        ok = await event.reply(f"» [𝐌αƨтɛя](https://t.me/IISTRIKE_XDII) 𝐍𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐀𝐃𝐃𝐄𝐃__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
