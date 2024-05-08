@@ -10,8 +10,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 # VALUES REQUIRED FOR XBOTS
-API_ID = 21569237
-API_HASH = "f137376c626651b5511ede8ee4501586"
+API_ID = 28370185
+API_HASH = "b365a72c29a90e6c618021438f64f6c9"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -27,7 +27,7 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6626817043").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6692983479").split()))
 for x in OXYGEN:
     SUDO_USERS.append(x)
 OWNER_ID = int(getenv("OWNER_ID", default="6626817043"))
